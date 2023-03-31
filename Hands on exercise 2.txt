@@ -1,0 +1,657 @@
+EX: 1 FAVORITE FOOD
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+ background-color:grey;
+}
+.centered {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+.heading
+{
+ text-align:center;
+ font-size:50px;
+}
+.alignment
+{
+ text-align:center;
+ background-color:orange;
+}
+.image
+{
+ border:2px solid #FFFFFF;
+ width:50%;height:500px;
+ padding:5px;
+}
+.pizza
+{
+ text-align:center;
+ background-color:darkviolet;
+}
+.choco
+{
+ border:2px solid #FFFFFF;
+ width:50%;height:500px;
+ padding:30px;
+}
+.chocolate
+{
+ text-align:center;
+ background-color:darkturquoise;
+}
+</style>
+</head>
+<body>
+<div class="centered">
+ <h1 class="heading"><i>SOME OF MY FAV<br>FOODS</i></h1>
+</div>
+ <div>
+ <img id="titleName"> 
+ <img id="titleImage" 
+src="https://www.wbcsd.org/var/site/storage/images/programs/food-andnature/food-land-use/fresh/positive-nutrition/150946-2-eng-GB/Positivenutrition_i1500.jpg" alt="Picture missing" 
+style="width:100%;"></h1></center>
+ <div class="alignment">
+ <h3 id="favFood1" style="color:white"><i>Veg Biryani</i></h3> 
+ <p id="foodDescription" style="color:white"><i>It is a south indian dish.is 
+a perfect dish for any occasion .Veg biryani is an aromatic rice dish made by 
+cooking basmati rice with veggies & biryani masala.</i></p>
+ <img id="favFoodImage1" src =" https://www.cubesnjuliennes.com/wpcontent/uploads/2019/03/Instant-Pot-Veg-Biryani-Recipe.jpg" alt="veg 
+biryani"class="image"/>
+ </div >
+ <br>
+ <div class="pizza">
+ <h3 id="favFood2"style="color:white"><i>Pizza</i></h3>
+ <p id="foodDescription2" style="color:white"><i>Pizza is a savory dish of 
+Italian origin, consisting of a usually round, flattened base of leavened wheatbased dough topped with tomatoes, cheese, and various other ingredients baked 
+at a high temperature, traditionally in a wood-fired oven.</i></p>
+ <img id="favFoodImage2" src=" https://thestingyvegan.com/wpcontent/uploads/2017/10/vegan-nacho-pizza-photo.jpg " 
+alt="pizza"class="image" />
+ </div>
+ <div class="chocolate">
+ <h3 id="favFood3"style="color:white"><i>Chocolate</i></h3>
+ <p id="foodDescription3" style="color:white"><i>Chocolate is a usually 
+sweet, brown food preparation of roasted and ground cacao seeds that is made 
+in the form of a liquid, paste, or in a block, or used as a flavoring ingredient in 
+other foods.The seeds of the cacao tree have an intense bitter taste and must be 
+fermented to develop the flavor.</i></p>
+ <img id="favFoodImage3" src="https://images.costcostatic.com/ImageDelivery/imageService?profileId=12026540&imageId=922741
+-847__1&recipeName=350" alt="chocolate"class="choco" >
+ </div>
+ </body>
+</html>
+EX:2 FRIEND BOOK
+<html>
+ <head>
+ <style>
+ body{
+ background-image: url('https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcQY7tYhvmDuaD0Ds3IBjka7QkYinin
+oWhAgRN1-qHJnhQ&s.jpg');
+ background-size: 100% 100%;
+ }
+ </style>
+ <title id="titleName">Friends Books</title>
+ </head>
+ <body>
+ <center><h1>FRIENDS BOOK</h1><form>
+ <label id="yourName">Your Name:</label>
+ <input id="textBox" type="text"><br><br>
+ <label id="field1">1. A message for me:</label><br><br>
+ <input id="textBox1" type="text"><br><br>
+ <label id="field2">2. A nick for me:</label><br><br>
+ <input id="textBox2" type="text"><br><br>
+ <label id="field3">3. Have you ever lied to me:</label><br><br>
+ <input id="yesMaybe" type="radio">
+ <label id="yes">Yes</label>
+ <input id="yesMaybe" type="radio">
+ <label id="yes">Maybe</label><br><br>
+ <label id="field4">4. How do you feel when you talk to me:</label><br><br>
+ <input id="happy" type="radio">
+ <label id="yes">Happy</label>
+ <input id="happy" type="radio">
+ <label id="yes">Irritated</label><br><br>
+ <label id="field5">5. Do you like to go on a roadtrip with 
+me:</label><br><br>
+ <input id="no" type="radio">
+ <label id="yes">Yes</label>
+ <input id="no" type="radio">
+ <label id="yes">No</label><br><br>
+ <label id="bestColour">6. Best Colour that suits me:</label><br><br>
+ <input id="bestColour" type="checkbox">
+ <label id="yes">White</label>
+ <input id="yesMaybe" type="checkbox">
+ <label id="yes">Black</label>
+ <input id="yesMaybe" type="checkbox">
+ <label id="yes">Green</label>
+ <input id="yesMaybe" type="checkbox">
+ <label id="yes">Blue</label><br><br>
+ <label id="field1">7.The best moment in our Friendship:</label><br><br>
+ <input id="textBox3" type="text">
+ <img id="backgroundImage">
+ </form>
+ </center>
+ </div>
+ </body>
+ </html>
+EX 3: HTML WEB PAGES
+<html>
+ <body bgcolor="#FAE5D3">
+ <center>
+ <h1 id="table-heading">TABLES AND LISTS</h1>
+ <table id="courseTable" border=1>
+ <tr>
+ <th>Roll 
+No</th><th>Name</th><th>Course</th><th>Department</th>
+ </tr>
+ <tr>
+ <td>001</td>
+ <td>AAA</td>
+ <td>SDP</td>
+ <td>CSE</td>
+ </tr>
+ <tr>
+ <td>002</td>
+ <td>BBB</td>
+ <td>C++</td>
+ <td>CSE</td>
+ </tr>
+ </table>
+ <ul id="courseHeading" style=list-style-position:inside;>
+ <h2 id="courseList">No of Courses Available</h2> 
+ <li>Computer Science</li>
+ <li>Electronics</li>
+ <li>Aeronautics</li>
+ <li>Mechanical</li>
+ <li>Artificial Intelligence</li>
+ </ul></center>
+ <iframe id="frameHeading" src="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcTt3lzoyS_qdS1Ovlxu8CpZx1u6Cf99P
+XMcS0pR16Ys83NSXzN2Z5CVsOlL6Iu78pxCYHI&usqp=CAU.jpg"></ifram
+e>
+ <iframe id="frameImage1" src="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcTt3lzoyS_qdS1Ovlxu8CpZx1u6Cf99P
+XMcS0pR16Ys83NSXzN2Z5CVsOlL6Iu78pxCYHI&usqp=CAU.jpg"></ifram
+e>
+ <iframe id="frameImage2" src="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcTt3lzoyS_qdS1Ovlxu8CpZx1u6Cf99P
+XMcS0pR16Ys83NSXzN2Z5CVsOlL6Iu78pxCYHI&usqp=CAU.jpg"></ifram
+e>
+ <form id="login-form">
+ <label id="submit_btn"></label>
+ <input type="text" id="submit_btn">
+ <button id="submit_btn">Submit</button>
+ </form>
+ </body>
+</html>
+EX 4: NEO PHOTOGRAPHY
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Neo Photography</title>
+ <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <div>
+ <div class="container">
+ <h1 id="titleName"> NEO PHOTOGRAPHY</h1>
+ <h2 id="titleDescription">Beautiful Commercial Photography</h2>
+ <a onclick="myFunction()" id="viewWork">View Work</a>
+ </div>
+ <div id="images">
+ <div class="image">
+ <img src="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcSkU4avw_0GdH6P9rDVVEUuHHllDf
+3-6lIwzpI70ISDbQ&s" alt="pic1" id="backGroundImage" >
+ </div>
+ <div class="image">
+ <h3 id="ourWork"> Our Work</h3>
+ <img src="https://media.istockphoto.com/id/1196172395/photo/in-thephoto-studio-with-professional-equipment-portrait-of-the-famous-photographer-
+holding.jpg?s=612x612&w=0&k=20&c=utO4aHRyA5ZUAYxbk9NelmhR1_E
+5-AOWUWcqDMP-NXE=" alt="pic2" id="firstImage" >
+ </div>
+ <div class="image">
+ <img 
+src="https://cdn.mos.cms.futurecdn.net/gvQ9NhQP8wbbM32jXy4V3j.jpg" 
+alt="pic3" id="secondImage"><p id="firstImageName"> Food Photography 
+</p> 
+ </div>
+ <div class="image">
+ <img src="https://images.unsplash.com/photo-1542038784456-
+1ea8e935640e?ixlib=rb4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG9ncmFwaHl8Z
+W58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="pic4" 
+id="thirdImage">
+ <p id="secondImageName">Aerial Photography</p>
+ </div>
+ <div class="image">
+ <img src="https://images.unsplash.com/photo-1554080353-
+a576cf803bda?ixlib=rb4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGhvdG9ncmFwaHl8Z
+W58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="pic5" 
+id="fourthImage">
+ <p id="thirdImageName">Abstract Photography</p>
+ </div>
+ </div>
+ </div> 
+</body>
+<script>
+ function myFunction(){
+ var x = document.getElementById("images");
+ if (x.style.display === "none") {
+ x.style.display = "block";
+ } else {
+ x.style.display = "none";
+ }
+ }
+</script>
+</html>
+EX 5: VEGETABLE SALAD
+<!DOCTYPE html>
+<html>
+ <head>
+ <h1 id="heading" style=text-align:center;color:purple;>VEGETABLE 
+SALAD</h1>
+ <title id="titleName">Vegetable Salad</title>
+ </head>
+<body bgcolor="#AFE1AF">
+<div class="container">
+ <center><img id="vegetableSaladImage" 
+src="https://www.acouplecooks.com/wp-content/uploads/2022/02/VegetableSalad-009.jpg" alt="Logo" width="300" height="200"></center> 
+ <h4 id="benefits" style=text-align:center;color:blue;>Benefits of Vegetable 
+Salad</h4>
+ <p id="benefitsParagraph" style=text-align:center;color:indigo;fontsize:11px;font-family:TimesNewRoman>Aside from their natural good taste 
+and great crunchy texture alongside wonderful colors and fragance, eating a 
+large serving fresh, raw vegetables each day can have significant health 
+benefits</p>
+ <h4 id="steps" style=text-align:center;color:blue;>Steps to make Vegetable 
+Salad</h4>
+ <ul id="stepForVegetableSalad" style=list-style-position:inside;textalign:center;color:indigo;>
+ <li>Take a large and clear glass bowl</li>
+<li>Try adding blanched, lightly steamed or roasted veggies like broccoli, 
+french beans, corn, cauliflower, baby corn</li>
+<li>Add lentils, beans or chickpeas or bean sprouts for more protein</li>
+<li>Grate some of the vegetables for a different texture</li>
+<li>Add marinated veggies like artichoke hearts for tang or other veggies like 
+radish for some pungency</li>
+<li>Swap in your own favorite combination of dried fruits, nuts and seeds</li>
+<li>Use fresh coriander or chives instead of parsley</li>
+ </ul>
+ </div>
+ <hr>
+ <footer id="footerText" style=text-align:center;color:indigo;>This easy 
+vegetable salad is packed with a variety of summer produce with all textures 
+and colors one could ever want
+ </footer>
+</body>
+</html>
+ADDITIONAL HANDS ON POJECTS
+EX 1:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exercise 01</title>
+</head>
+<body bgcolor="black">
+ <h2 style="color:cyan;"> Designed for developers</h2>
+ <h1 style="color:white;">The world's most powerful and easy -touse APIs</h1>
+ <p style="color:darkgray;">we agonize over the right abstractions so your tea
+ms don't need to stitch together disparate systems or soend months integrating p
+ayment functionality</p>
+</body>
+</html>
+EX 2:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exercise 01</title>
+ <style>
+ img
+ {
+ float:left;
+ border:1 px;
+ margin:10 px 10px 20px 20px;
+ }
+ </style>
+</head>
+<body bgcolor="orange">
+ <h2 style="color:green;"> Richards page</h2>
+ <h1 style="color:green;"> my dog</h1>
+ <img src="https://media.istockphoto.com/id/962855368/photo/beagle-5-
+years-old-sitting-in-front-of-whitebackground.jpg?s=612x612&w=0&k=20&c=LSDUgTw68-
+FNU43TmLQA1_e46lew9iBpGvaJdFB-B1s=" alt="no picture" width="100" 
+height="100">
+ <p style="color:green;">we agonize over the right abstractions so your teams 
+don't need to stitch together disparate systems or soend months integrating 
+payment functionality</p>
+</body>
+</html>
+EX 3:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exercise 01</title>
+ </head>
+<body bgcolor="light blue">
+ <h2 style="color:black;"> INDIAN CRICKET</h2>
+ <p>first image width 50% and height 50%</p>
+ <img src="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcSzJNLndXQcnIPHzhGt_CtRjwnuEH_
+7w31dIUw-rthX&s" width="50%" height="50%">
+ <br>
+ <br>
+ <p>secon image width 128px height 128px </p>
+ <img src="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcSzJNLndXQcnIPHzhGt_CtRjwnuEH_
+7w31dIUw-rthX&s" width="128px" height="128px">
+</body>
+</html>
+EX 4:
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div {text-align: center}
+h1 {text-align: center}
+body,html
+{
+ height: 100%;
+ margin: 0;
+}
+.bg {
+ /* The image used */
+ backgroundimage: url("https://i.pinimg.com/originals/b4/a8/a4/b4a8a4625f6b8ef4418150ef
+ff833d04.gif");
+ /* Full height */
+ height: 100%;
+ 
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+</style>
+</head>
+<body>
+<div class="bg">
+ <h1> Take a break go for trip</h1>
+</div>
+</body>
+</html>
+EX 5:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exercise 5</title>
+</head>
+<body bgcolor="#CAFEA7">
+ <h1 style="text-align:center";>Login</h1>
+ <p style="text-align:center";>
+ <br>
+ <br>
+<form style="text-align:center";>
+ <label for="username">Username:</label>
+ <input type="text"><br>
+ <br>
+ <label for="password">Password:</label>
+ <input type="text"><br>
+ <br>
+<button value="login">Login</button> 
+</form>
+ </p>
+ 
+</body>
+</html>
+EX 6:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exercise 6</title>
+ <style>
+ .h2{
+ text-align: center;
+ 
+ }
+ .img
+ {
+ text-align: center;
+ }
+ .container
+ {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color:white;
+ text-align: center;
+ 
+ }
+ </style>
+</head>
+<body>
+ <div class=h2><h2>The Himalayas</h2></div>
+ <div><p>The Himalayas the highest mountain range in the world and home t
+o most of the world's highest mountains includes many mountains</p></div>
+ <div >
+ <img src="https://media.istockphoto.com/id/1223738331/photo/panoramic59-mpix-xxxxl-size-view-of-mount-ama-dablam-in-himalayasnepal.jpg?b=1&s=170667a&w=0&k=20&c=cGqrdcvB6qqL8B2KPySr8yGE7U
+h_sBSNpx3xJR-iYe0=" width="100%"height="100%">
+</div>
+<div class=container><h1><u>Range of mountains</u></h1></div>
+</body>
+</html>
+EX 7:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Exercise 7</title>
+ <style>
+ table, th, td {
+ 
+ border: 1px solid black;
+ background-color: blanchedalmond; 
+}
+th, td {
+ padding-top: 10px;
+ padding-bottom: 20px;
+ padding-left: 30px;
+ padding-right: 40px;
+}
+h2
+{
+ text-align: center;
+}
+ </style>
+</head>
+<body>
+ <h2><u>Employee Table</u></h2>
+ <br>
+ <table width="100%">
+ <tr>
+ <th>
+ name
+ </th>
+ <th>
+ Job Title
+ </th>
+ <th>
+ Email <Address>
+ </th>
+ </tr>
+ <tr>
+ <td>
+ Alfreds
+ </td>
+ <td>
+ Developer
+ </td>
+ <td>
+ alfred@company.com
+ </td>
+ </tr>
+ <tr>
+ <td>
+ Maria
+ </td>
+ <td>
+ Staff Writer
+ </td>
+ <td>
+ maria@company.com
+ </td>
+ </tr>
+ <tr>
+ <td>
+ Emst
+ </td>
+ <td>
+ Project Head
+ </td>
+ <td>
+ Emst@company.com
+ </td>
+ </tr>
+ <tr>
+ <td>
+ Albert
+ </td>
+ <td>
+ Research Scientist
+ </td>
+ <td>
+ albert@company.com
+ </td>
+ </tr>
+ <tr>
+ <td>
+ Winston
+ </td>
+ <td>
+ Developer
+ </td>
+ <td>
+ winston@company.com
+ </td>
+ </tr>
+ <tr>
+ <td>
+ Martin
+ </td>
+ <td>
+ Skill Developer
+ </td>
+ <td>
+ martin@company.com
+ </td>
+ </tr>
+ </table>
+</body>
+</html>
+EX 8:
+<html>
+ <head>
+ <style>
+ .all {
+ border: 1px;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ 
+ }
+ .button {
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ background-color: #4CAF50;
+ 
+ 
+}
+ </style>
+ </head>
+ <body>
+ <h2 style="text-align: center;">Cricket Matches</h2>
+ <a class="button" href="https://www.w3schools.com/tags/tag_button.asp"
+>
+ <button class="button"> International Cricket</button> </a>
+ <button class="button"> T20 series</button>
+ <input type="button" class="button" value="Latest Tournaments"><br>
+ 
+ <div style="text-align: center;">
+ <button class="all" type="submit" value="All Matches">All Matches</b
+utton>
+ </div>
+ </body>
+</html>
+EX 9:
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+ border: none;
+ color: white;
+ padding: 16px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ transition-duration: 0.4s;
+ cursor: pointer;
+}
+.button1 {
+ background-color: white; 
+ color: black; 
+ border: 2px solid #4CAF50;
+}
+.button1:hover {
+ background-color: #4CAF50;
+ color: white;
+}
+.button2 {
+ background-color: white; 
+ color: black; 
+ border: 2px solid #008CBA;
+}
+.button2:hover {
+ background-color: #008CBA;
+ color: white;
+}
+</style>
+</head>
+<body>
+<h2>The button element - Styled with CSS</h2>
+<p>Use the :hover selector to change the style of the button when you move the 
+mouse over it.</p>
+<p><strong>Tip:</strong> Use the transition-duration property to determine the 
+speed of the "hover" effect:</p>
+<button class="button button1">Green</button>
+<button class="button button2">Blue</button>
+</body>
+</html>

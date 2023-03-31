@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.food {
+background-color: lightblue;
+color: black;
+border: 0px ;
+margin: 0px;
+padding: 10px;
+}
+h4
+{
+background-color:navy;
+color: white;
+border: 0px ;
+margin: 0px;
+padding: 10px;
+}
+</style>
+</head>
+<body>
+<h4 id="titleName">Easy Steps to Healthier Lifestyle</h4>
+<div class="food">
+<img id="health1" src="data:image/jpeg;base64,/9j/>
+<h5 id="healthDescription1">Eat more fruits and veggies</h5>
+<p id="healthParagraph1">Fruits and vegetables contain important vitamins, minerals and plant chemicals. They also contain fibre. There are many varieties of fruit and vegetables available and many ways to prepare, cook and serve them. A diet high in fruit and vegetables can help protect you against cancer, diabetes and heart disease.</p>
+</div> <br>
+<div class="food">
+<img id="health2" src="https://www.shutterstock.com/image-photo/young-woman-practicing-yoga-on-260nw-1938555322.jpg" align="right" width=250>
+<h5 id="healthDescription2">Exercise</h5>
+<p id="healthParagraph2">Yoga is a mind and body practice. Various styles of yoga combine physical postures, breathing techniques, and meditation or relaxation. Yoga is an ancient practice that may have originated in India. It involves movement, meditation, and breathing techniques to promote mental and physical well-being.</p>
+</div><br>
+<div class="food">
+<img id="health3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdr08unjuD6XRXjXpW0XCcfnu4-NZHuPHsjQ&usqp=CAU" align="left" width=150>
+<h5 id="healthdescription3">Emotional Health</h5>
+<p id="healthParagraph3">Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make healthy choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.</p>
+</div><br>
+<div class="food">
+<img id="health4" src="https://cdn.pixabay.com/photo/2017/06/05/14/55/glass-2374311__340.jpg"align="right" width=300>
+<h5 id="healthDescription4">Drink a lot of Water</h5>
+<p id="healthParagraph4">Drinking plenty of water can help you lose weight. This is because water can increase satiety and boost your metabolic rate. Some evidence suggests that increasing water intake can promote weight loss by slightly increasing your metabolism, which can increase the number of calories you burn on a daily basis.</p>
+</div><br>
+<div class="food">
+<img id="health5" src="https://www.shutterstock.com/image-photo/cup-green-tea-on-white-260nw-135775481.jpg" align="left" width=300>
+<h5 id="healthDescription5">Have a cup of green tea</h5>
+<p id="healthParagraph5">Green tea is a type of tea that is made from Camellia sinensis leaves and buds that have not undergone the same withering and oxidation process which is used to make oolong teas and black teas. Green tea originated in China, and since then its production and manufacture has spread to other countries in East Asia.</p>
+</div>
+</body>
+</html>

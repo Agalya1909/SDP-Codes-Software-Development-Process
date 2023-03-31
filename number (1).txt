@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NUMBERATES</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <label>...</label>
+    <button id="attemptLabel">NO OF ATTEMPTS</button>
+    <button id="attemptCount">ATTEMPT COUNT</button>
+
+    <h1 id="title"</h1>
+    <h1 id="heading"></h1>
+    <img id="checkButton">
+    <input type="text" id="textBox">
+    <p id="textLabel">Enter:</p>
+</body>
+</html>

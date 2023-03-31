@@ -1,0 +1,701 @@
+EX 1: SHOPPEE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Shopee</title>
+ <style>
+ .dashboard
+ {
+ background-color: rgb(255, 122, 89);
+ text-align: left;
+ }
+ </style>
+</head>
+<body>
+ <div class="dashboard">shop world</div>
+ <h1>Discover new bags</h1>
+ <center>
+ <img id="titleImage" src=https://png.pngtree.com/background/20210711/origi
+nal/pngtree-taobao-vector-creative-technology-online-shopping-illustrationcomputer-finger-poster-pictureimage_1110799.jpg alt="shopping cart"width="500" height="200"></center>
+ <img id="productName1"src=https://5.imimg.com/data5/UD/KI/MY57198351/plain-school-bag-500x500.jpg width="100" height="100" >
+ <p id="productImage1">Tommy hiifiger</p>
+ <p id="productPrice1">$75</p><br>
+ <input type="submit"id="productAdd1"value="Add">
+ </div>
+ <div>
+ <center>
+ <img id="productImage2"src=https://www.grabon.in/indulge/wpcontent/uploads/2021/11/daypack300x300.jpg style="float: left";width="100" height="100">
+ </center> 
+ <p id="productImage2">sky bags</p>
+ <p id="productPrice2">$100</p>
+ <p id="productName2"></p>
+ <input type="submit"id="productAdd2"value="Add"> 
+ <p id="productFooterIcon">Brought to you by shop world</p>
+ 
+ 
+</div>
+</body>
+</html>
+EX 2: ROUND AROUND EARTH
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+ height: 100%;
+ font-family: Arial, Helvetica, sans-serif;
+}
+* {
+ box-sizing: border-box;
+}
+.bg-img {
+ /* The image used */
+ background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/ //Z");
+ height: 100%;
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+/* Add styles to the form container */
+.container {
+ position: absolute;
+ right: 0;
+ margin: 20px;
+ max-width: 300px;
+ padding: 16px;
+ background-color: white;
+}
+/* Full-width input fields */
+input[type=text], input[type=password],select {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ border: none;
+ background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+ background-color: #ddd;
+ outline: none;
+}
+/* Set a style for the submit button */
+.btn {
+ background-color: #04AA6D;
+ color: white;
+ padding: 16px 20px;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+ opacity: 0.9;
+}
+.btn:hover {
+ opacity: 1;
+}
+</style>
+</head>
+<body>
+<div class="bg-img">
+<img id="backgroundImage" src="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcRw335uqEsw1cCZVeNQQpCvRCoTFw2yNWdx8g&usqp=CA
+U">
+ <form id="departure" action="/action_page.php" class="container">
+ <h1 id="heading">Rocket around Earth</h1>
+ <label id="dropDown" for="dropDown">Departure country</label><br>
+ <select name="dropDown" id="dropDown"> 
+ <option id="dropDown" value="india">India</option>
+ <option id="dropDown" value="uk">UK</option>
+ <option id="dropDown" value="us">US</option>
+ <option id="dropDown" value="australia">Australia</option>
+ </select>
+ <label for="no of space travellers">no of travellers</label>
+<input type="text" id="noOfTravellers" placeholder="enter number of travellers"></input>
+ <label id="email" for="email">Your Email</label>
+ <input type="text" value="default" placeholder="Enter Email" name="email" required>
+<p id="yesOrNo>
+ <label for="yesOrNo">Do you wanna rent a space suit</label><br>
+ <input name="yesOrNotype="radio" id="yesOrNo">Yes,Please</input><br>
+ <input name="yesOrNotype="radio" >No,I have my own</input><br>
+ </p>
+ <button type="submit" id="submit" class="btn">Take us to space</button>
+ </form>
+</div>
+</body>
+</html>
+EX 3: ANIMI
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ .roundcorners{
+ border-top-right-radius: 25px;
+ border-bottom-right-radius: 25px;
+ background: #73AD21;
+ color:white;
+ width: 500px;
+ height: 50px; 
+}
+.aname{
+ color:white;
+ padding:50px;
+ text-align:left;
+ width: 500px;
+ height: 50px; 
+}
+}
+.button{
+ background-color:Tomato;
+ padding: 15px 32px;
+ font-size: 16px
+ text-align: center;
+}
+</style>
+</head>
+ <body style="background-color:black;padding:0";>
+ <form>
+ <div class="roundcorners">
+ <h1 id="head">anime forms</h1>
+ </div><br>
+ <div class="aname">
+ <h3 id="heading">Anime-Name</h3><br>
+ <input id="submitButton" type="text" style="border-color:red";><br><br>
+ <label id="country" style="color:white">ANIMI-(ORIGIN-COUNTRY)</label><br>
+ <br>
+ <select id="country" type="text"style="border-color:red";"text-align:center"/>
+ <option value="">
+ <option value="india">india</option>
+ <option value="america">america</option>
+ <option value="greece">greece</option>
+ <option value="china">china</option>
+ </select>
+ <br><br>
+ <button id="nameTextBox" style="border-color:red";rows="4" cols="50"></button> 
+</button><br><br>
+ <button id="yourRatingTextBox" style="border-color:red";></button><br><br>
+ <img id="countryTextBox"><br>
+ <img id="awardsTextBox">
+ <label id="noOfEpisodeTextBox" style="color:white";"textalign:center";>No.of.Episodes</label><br><br>
+ <input id="noOfEpisodeTextBox" type="text"style="border-color:red";"textalign:center";><br><br>
+ <label id="yourRatingText" style="color:white";"text-align:center";>YOUR 
+RATING</label><br><br>
+ <input id="yourRatingText" type="text"style="border-color:red";rows="4" cols="50";><br><br>
+ <label id="awardsText" style="color:white";"text-align:center";>AWARDS</label><br><br>
+ <input id="awardsText" type="text"style="border-color:red";rows="4" cols="50";><br><br>
+ <label id="descriptionTextBox" style="color:white";"text-align:right";>DESCRIPTION ABOUT THE 
+ANIMI</label><br><br>
+ <input id="descriptionTextBox" type="text"style="border-color:red";rows="4" 
+cols="50";><br><br>
+ <input type="button" class="button" value="submit">
+ </div>
+</form>
+</body>
+</html>
+Ex 4: THE MARVEL UNIVERSE
+<!DOCTYPE html>
+<html>
+<head>
+<title>Marvel Studio</title>
+<style>
+body {
+background-image: 
+url("https://wallpaperaccess.com/full/1868188.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#marvel_studio {
+height: 500px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+width:60%;
+}
+#Title {
+width: 100%;
+background-color:red;
+padding:3px;
+}
+#TitleName {
+text-align: center;
+color: white;
+}
+#Content {
+opacity: 0.8;
+background-color:black;
+height: 100%;
+}
+#ContentHead {
+color:white;
+height:100px;
+width:100%;
+display:inline;
+text-align:center;
+font-weight:bold;
+}
+#popularHeros {
+width: 50%;
+float: left;
+}
+#popularVillains {
+width: 50%;
+float: right;
+}
+#ContentBody {
+width:100%;
+display:inline;
+text-align:center;
+}
+#Heros {
+width: 50%;
+float: left;
+}
+#Villains {
+width: 50%;
+float: right;
+}
+div.images {
+text-align:center;
+margin: 2px;
+width:100px;
+padding-left:10px;
+padding-bottom:15px;
+display:inline-block;
+}
+div p {
+text-align: center;
+color:black;
+background-color:white;
+margin:0px;
+}
+</style>
+</head>
+<body>
+<div id="marvel_studio">
+<div id="Title">
+<h1 id="TitleName">THE MARVEL UNIVERSE</h1>
+</div>
+<div id="Content">
+<div id="ContentHead">
+<h2 id="popularHeros"> POPULAR SUPER HEROS </h2>
+<h2 id="popularVillains"> POPULAR SUPER VILLAINS </h2>
+</div>
+<div id="ContentBody">
+<div id="Heros"> 
+<div class="images">
+ <img id="superHeros1" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superHerosName1"> Iron Man</p>
+</div>
+<div class="images">
+ <img id="superHeros2" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superHerosName2"> Thor</p>
+</div>
+<div class="images">
+ <img id="superHeros3" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superHerosName3"> Iron Man</p>
+</div>
+<div class="images">
+ <img id="superHeros4" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superHerosName4"> Iron Man</p>
+</div>
+<div class="images">
+ <img id="superHeros5" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superHerosName5"> Iron Man</p>
+</div>
+<div class="images">
+ <img id="superHeros6" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superHerosName6"> Thor</p>
+</div>
+<div class="images">
+ <img id="superHeros7" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superHerosName7"> Iron Man</p>
+</div>
+<div class="images">
+ <img id="superHeros8" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superHerosName8"> Iron Man</p>
+</div>
+</div>
+<div id="Villains"> 
+<div class="images">
+ <img id="superVillain1" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superVillainName1"> Iron Man</p>
+</div>
+<div class="images">
+ <img id="superVillain2" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superVillainName2"> Iron Man</p>
+</div>
+<div class="images">
+ <img id="superVillain3" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superVillainName3"> Iron Man</p>
+</div>
+<div class="images">
+ <img id="superVillain4" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superVillainName4"> Iron Man</p>
+</div>
+<div class="images">
+ <img id="superVillain5" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superVillainName5"> Iron Man</p>
+</div>
+<div class="images">
+ <img id="superVillain6" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superVillainName6"> Iron Man</p>
+</div>
+<div class="images">
+ <img id="superVillain7" 
+src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" 
+alt=""/>
+ <p id="superVillainName7"> Iron Man</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+EX 5: COVID HEALTH MAINTENANCE 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.food {
+ background-color: lightblue;
+ color: black;
+ border: 0px ;
+ margin: 0px;
+ padding: 10px;
+}
+h4
+{
+ background-color:navy;
+ color: white;
+ border: 0px ;
+ margin: 0px;
+ padding: 10px; 
+}
+</style>
+</head>
+<body>
+<h4 id="titleName">Easy Steps to Healthier Lifestyle</h4>
+<div class="food">
+<img id="health1" src="data:image/jpeg;base64,/9j/>
+<h5 id="healthDescription1">Eat more fruits and veggies</h5>
+<p id="healthParagraph1">Fruits and vegetables contain important vitamins, minerals and plant 
+chemicals. They also contain fibre. There are many varieties of fruit and vegetables available and 
+many ways to prepare, cook and serve them. A diet high in fruit and vegetables can help protect you 
+against cancer, diabetes and heart disease.</p>
+</div> <br>
+<div class="food">
+<img id="health2" src="https://www.shutterstock.com/image-photo/young-woman-practicing-yogaon-260nw-1938555322.jpg" align="right" width=250>
+<h5 id="healthDescription2">Exercise</h5>
+<p id="healthParagraph2">Yoga is a mind and body practice. Various styles of yoga combine physical 
+postures, breathing techniques, and meditation or relaxation. Yoga is an ancient practice that may 
+have originated in India. It involves movement, meditation, and breathing techniques to promote 
+mental and physical well-being.</p>
+</div><br>
+<div class="food">
+ <img id="health3" src="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcSdr08unjuD6XRXjXpW0XCcfnu4-NZHuPHsjQ&usqp=CAU" 
+align="left" width=150>
+ <h5 id="healthdescription3">Emotional Health</h5>
+ <p id="healthParagraph3">Mental health includes our emotional, psychological, and social wellbeing. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to 
+others, and make healthy choices. Mental health is important at every stage of life, from childhood 
+and adolescence through adulthood.</p>
+ </div><br>
+<div class="food">
+ <img id="health4" src="https://cdn.pixabay.com/photo/2017/06/05/14/55/glass2374311__340.jpg"align="right" width=300>
+<h5 id="healthDescription4">Drink a lot of Water</h5>
+<p id="healthParagraph4">Drinking plenty of water can help you lose weight. This is because water 
+can increase satiety and boost your metabolic rate. Some evidence suggests that increasing water 
+intake can promote weight loss by slightly increasing your metabolism, which can increase the 
+number of calories you burn on a daily basis.</p>
+</div><br>
+<div class="food">
+ <img id="health5" src="https://www.shutterstock.com/image-photo/cup-green-tea-on-white260nw-135775481.jpg" align="left" width=300>
+ <h5 id="healthDescription5">Have a cup of green tea</h5>
+<p id="healthParagraph5">Green tea is a type of tea that is made from Camellia sinensis leaves and 
+buds that have not undergone the same withering and oxidation process which is used to make 
+oolong teas and black teas. Green tea originated in China, and since then its production and 
+manufacture has spread to other countries in East Asia.</p>
+</div>
+</body>
+</html>
+EX 6: WEB PAGE STYLING
+coffee.html
+<html>
+<body>
+<img src="data:image/jpeg;base64,/==">
+</body>
+</html>
+computer.html
+<html>
+<body>
+<img src="data:image/jpeg;base64,/ 9k=">
+</body>
+frame.html
+<!DOCTYPE html>
+<html>
+<body>
+<h1 id="frameheading">Frames in html</h1>
+<iframe id="frameImage1" src="data:image/jpeg;base64,/9j/ /Z">
+</iframe>
+</body>
+</html>
+image.html
+<html>
+<body>
+<h1 id="title"> Image Map</h1>
+<img id="image" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/ //Z" 
+alt="Workplace" usemap="#workmap" width="400" height="379">
+<map name="workmap">
+ <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+ <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+ <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.html">
+</map>
+</body>
+</html>
+login.html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META httpequiv="Content-Type" content="text/html; charset=utf-8"><style></style></head><body>
+ <div bgcolor="#FAE5D3">
+ <form id="login-form" target="_blank">
+ <center>
+ <fieldset>
+ <legend><center>Registration</center></legend>
+ <label for="fname">First Name:</label>
+ <input type="password" id="fname" name="fname"><br><br>
+ <label for="lname">Password:</label>
+ <input type="text" id="lname" name="lname"><br><br>
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email"><br><br> 
+ <input type="submit" value="SUBMIT">
+ </option></option></option></option></option></fieldset></center> 
+ </form>
+ </div>
+</body>
+</html>
+nav.html
+<html>
+<head>
+<style>
+body {
+ margin: 0;
+ overflow-x: hidden;
+}
+.nav-open .nav {
+ transform: translateX(0);
+}
+.nav-open .main {
+ transform: translateX(350px);
+}
+.nav {
+ width: 350px;
+ height: 100vh;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background: #333333;
+ transform: translateX(-350px);
+ transition: transform 0.2s;
+ overflow: hidden;
+}
+.nav-close {
+ background: none;
+ display: flex;
+ align-items: center;
+ border: none;
+ padding: 15px 25px;
+ color: #dddddd;
+ margin-left: auto;
+ cursor: pointer;
+}
+.nav-close:hover {
+ background: rgba(255, 255, 255, 0.05);
+}
+.nav-links-container {
+ box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.15);
+}
+.nav__link {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 15px 25px;
+ text-decoration: none;
+ color: #dddddd;
+}
+.nav__text {
+ font-size: 22px;
+ font-family: "Assistant", sans-serif;
+ font-weight: 500;
+}
+.nav__link:hover {
+ background: rgba(255, 255, 255, 0.05);
+}
+.main {
+ transition: transform 0.2s;
+}
+</style>
+<body>
+ <nav class="nav" id="navigationPannel">
+ <button type="button" class="nav-close" onclick="toggleNav()">
+<span class="nav__text"><h3 id="headingLists">CSS OF WEBPAGES<h3> </span>
+ <ion-icon name="close-outline" size="large"> </ion-icon>
+ </button>
+ <ul id="lists">
+ <div class="nav-links-container">
+ <a id="login" href="login.html" class="nav__link">
+ <span class="nav__text">login</span>
+ <ion-icon name="log-in" size="large"></ion-icon>
+ </a>
+ <a id="table" href="table.html" class="nav__link">
+ <span class="nav__text">Table</span>
+ <ion-icon name="grid" size="large"></ion-icon>
+ </a>
+ <a id="image" href="image.html" class="nav__link">
+ <span class="nav__text">image</span>
+ <ion-icon name="location" size="large"></ion-icon>
+ </a>
+ <a id="frames" href="frame.html" class="nav__link">
+ <span class="nav__text">Frames</span>
+ <ion-icon name="desktop" size="large"></ion-icon>
+ </a>
+ </div>
+ </ul>
+ </nav>
+ <main class="main">
+ <button onclick="toggleNav()">Open Navigation</button>
+ </main>
+ <script>
+ function toggleNav() {
+ document.body.classList.toggle("nav-open");
+ }
+ </script>
+ <script type="module" 
+src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<h1 id="title">
+WEBPAGE STYLING WITH CSS
+</H1>
+<P ID="description">Each icon has its own navigation link it can be moved to different wepages</p>
+</body>
+</html>
+phone.html
+<html>
+<body>
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/ /Z">
+</body>
+</html>
+table.html
+<html>
+<body>
+<h1 id="table-headings" >
+TABLES AND LISTS
+</H1>
+<TABLE id="courseTable" border="1">
+<tr>
+<th>Roll No</th>
+<th>Name</th>
+<th>course</th>
+<th>Department</th>
+</tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS</td>
+</tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS</td>
+</tr><tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS</td>
+</tr><tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS</td>
+</tr><tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS</td>
+</tr><tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS</td>
+</tr><tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS</td>
+</tr><tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS</td>
+</tr><tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS</td>
+</tr><tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS</td>
+</tr><tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS</td>
+</tr>
+</table>
+<br>
+<h1 id="courseHeading">
+No of courses available
+</h1>
+<ul id="courseList">
+<li>computer science</li>
+<li>Electronics</li>
+<li>Aeronautics</li>
+<li>Mechanical</li>
+<li>Artificial Intelligence</li>
+</ul>
+</body>
+</html>

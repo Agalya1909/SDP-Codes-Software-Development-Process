@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Marvel Studio</title>
+<style>
+body {
+background-image: url("https://wallpaperaccess.com/full/1868188.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#marvel_studio {
+height: 500px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+width:60%;
+}
+#Title {
+width: 100%;
+background-color:red;
+padding:3px;
+}
+#TitleName {
+text-align: center;
+color: white;
+}
+#Content {
+opacity: 0.8;
+background-color:black;
+height: 100%;
+}
+#ContentHead {
+color:white;
+height:100px;
+width:100%;
+display:inline;
+text-align:center;
+font-weight:bold;
+}
+#popularHeros {
+width: 50%;
+float: left;
+}
+#popularVillains {
+width: 50%;
+float: right;
+}
+#ContentBody {
+width:100%;
+display:inline;
+text-align:center;
+}
+#Heros {
+width: 50%;
+float: left;
+}
+#Villains {
+width: 50%;
+float: right;
+}
+div.images {
+text-align:center;
+margin: 2px;
+width:100px;
+padding-left:10px;
+padding-bottom:15px;
+display:inline-block;
+}
+div p {
+text-align: center;
+color:black;
+background-color:white;
+margin:0px;
+}
+</style>
+</head>
+<body>
+<div id="marvel_studio">
+<div id="Title">
+<h1 id="TitleName">THE MARVEL UNIVERSE</h1>
+</div>
+<div id="Content">
+<div id="ContentHead">
+<h2 id="popularHeros"> POPULAR SUPER HEROS </h2>
+<h2 id="popularVillains"> POPULAR SUPER VILLAINS </h2>
+</div>
+<div id="ContentBody">
+<div id="Heros">
+<div class="images">
+<img id="superHeros1" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superHerosName1"> Iron Man</p>
+</div>
+<div class="images">
+<img id="superHeros2" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superHerosName2"> Thor</p>
+</div>
+<div class="images">
+<img id="superHeros3" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superHerosName3"> Iron Man</p>
+</div>
+<div class="images">
+<img id="superHeros4" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superHerosName4"> Iron Man</p>
+</div>
+<div class="images">
+<img id="superHeros5" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superHerosName5"> Iron Man</p>
+</div>
+<div class="images">
+<img id="superHeros6" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superHerosName6"> Thor</p>
+</div>
+<div class="images">
+<img id="superHeros7" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superHerosName7"> Iron Man</p>
+</div>
+<div class="images">
+<img id="superHeros8" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superHerosName8"> Iron Man</p>
+</div>
+</div>
+<div id="Villains">
+<div class="images">
+<img id="superVillain1" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superVillainName1"> Iron Man</p>
+</div>
+<div class="images">
+<img id="superVillain2" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superVillainName2"> Iron Man</p>
+</div>
+<div class="images">
+<img id="superVillain3" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superVillainName3"> Iron Man</p>
+</div>
+<div class="images">
+<img id="superVillain4" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superVillainName4"> Iron Man</p>
+</div>
+<div class="images">
+<img id="superVillain5" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superVillainName5"> Iron Man</p>
+</div>
+<div class="images">
+<img id="superVillain6" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superVillainName6"> Iron Man</p>
+</div>
+<div class="images">
+<img id="superVillain7" src="http://31.media.tumblr.com/tumblr_lwlpl7ZE4z1r8f9ino1_500.jpg" width="100" height="100" alt=""/>
+<p id="superVillainName7"> Iron Man</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

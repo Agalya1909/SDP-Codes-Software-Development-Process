@@ -1,0 +1,69 @@
+// Jash 's code ::
+
+Html file -
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="dashBoard">
+        <img id="icon" src="https://www.pngfind.com/pngs/m/617-6173786_small-icon-png-search-icon-svg-transparent-png.png" alt="">
+        <p id="cartItems">Items</p>
+    </div>
+    <img id="titleImage" src="https://thumbs.dreamstime.com/b/shop-building-colorful-isolated-white-33822015.jpg" alt="">
+    <h1 id="productName1">Discover New bags:</h1>
+    <img id="productImage1" src="https://m.media-amazon.com/images/I/41u34PxebkL.jpg" alt="">
+    <p id="productName1">Tommy</p>
+    <p id="productPrice1">200</p>
+    <input id="productAdd1" type="submit" value="add">
+    <img id="productImage2" src="https://m.media-amazon.com/images/I/41u34PxebkL.jpg" alt="">
+    <p id="productName1">sky</p>
+    <p id="productPrice2">
+        200    </p>
+    <input id="productAdd2" type="submit" value="add">
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 id="productName2">Discover New watches:</h1>
+     <img src="https://theslenderwrist.com/wp-content/uploads/Cartier-watch-on-wrist.jpeg" id="productImage3" alt="">
+     <p id="productName1">watch1</p>
+
+     <p id="productPrice3">200</p>
+     <input id="productAdd1" type="submit" value="add">
+     <img src="https://theslenderwrist.com/wp-content/uploads/Cartier-watch-on-wrist.jpeg" id="productImage3" alt="">
+     <p id="productName1">watch1</p>
+
+     <p id="productPrice3">200</p>
+     <input id="productAdd1" type="submit" value="add">
+     <h1 id="productName3">Jewels for u:</h1>
+     <img id="productImage3" src="https://theslenderwrist.com/wp-content/uploads/Cartier-watch-on-wrist.jpeg" alt="">
+     <p id="productPrice4">200</p>
+     <h1 id="productName3">Jewels for u:</h1>
+     <img id="productImage3" src="https://theslenderwrist.com/wp-content/uploads/Cartier-watch-on-wrist.jpeg" alt="">
+     <p id="productPrice4">200</p>
+
+     <div class="footer">
+        <img id="productFooterIcon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Sign-check-icon.png/640px-Sign-check-icon.png" alt="">
+        <p id="productFooterAddress">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem est rerum voluptatum laudantium iure aperiam, soluta illum delectus saepe aut.</p>
+     </div>
+
+    
+</body>
+</html>
+
+Css file --
+
+#dashBoard{
+    background-color: yellow;
+}
+
+
+

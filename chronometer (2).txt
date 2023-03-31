@@ -1,0 +1,44 @@
+Java Script Basics - Hands On - 2. Chronometer ( Only CSS & HTML )
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronometer</title>
+    <style>
+        #chronometer-holder{
+            position: relative;
+            background: white;
+            border-radius: 50%;
+            opacity: .7;
+            width: 250px;
+            height: 250px;
+            top: -710px;
+            left: 625px;
+        }
+        #square{
+            position: relative;
+            background: orange;
+            opacity: .6;
+            width: 100px;
+            height: 50px;
+            top: -900px;
+            left: 697.5px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://i0.wp.com/blog.homeforfiction.com/wp-content/uploads/2018/01/pocket-watch-2036304_640.jpg?w=640&ssl=1" style="position: relative;" height="100%" width="100%">
+        <h1 id="title" style="position: relative; left: 650px; top: -720px; color: #FFF; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: normal;">Chronometer</h1>
+        <div id="chronometer-holder"></div>
+        <h2 id="timer" style="position: relative; top: -900px; left: 667.5px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Chronometer 0</h2>
+        <div id="square"></div>
+        <p id="minutes-holder" style="position: relative; top: -962.5px; left: 710px; font-size: x-large; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">24</p>
+        <p style="position: relative; top: -1016.5px; left: 740px; font-size: x-large; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">:</p>
+        <p id="seconds-holder" style="position: relative; top: -1067px; left: 752.5px; font-size: x-large; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">59</p>
+        <button id="start" style="position: relative; background-color: black; border-color: #FFF; color: #FFF; width: 60px; height: 30px; top: -900px; left: 650px;">Start</button>
+        <button id="stop" style="position: relative; background-color: black; border-color: #FFF; color: #FFF; width: 60px; height: 30px; top: -900px; left: 650px;">Stop</button>
+        <button id="reset" style="position: relative; background-color: black; border-color: #FFF; color: #FFF; width: 60px; height: 30px; top: -900px; left: 650px;">Reset</button>
+</body>
+</html>

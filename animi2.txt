@@ -1,0 +1,178 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animi Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <img class="bat" src="https://1000logos.net/wp-content/uploads/2016/10/Batman-movie-Logo-2009.png">
+        <h3><h1 class="title" id="heading">ANIME-FORMS</h1></h3>
+        <img class="bat" src="https://1000logos.net/wp-content/uploads/2016/10/Batman-movie-Logo-2009.png">
+    </div>
+    <div class="inputb">
+        <form class="form">
+            <div class="section">
+                <label class="label">ANIME-NAME</label>
+                <input class="input" id="nameTextBox" type="text">
+            </div>
+            <div class="section">
+                <label class="label">ANIME-(ORIGIN-COUNTRY)</label>
+                <select class="origin" id="countryTextBox">
+                    <option>JAPANESE</option>
+                    <option>KOREAN</option>
+                    <option>CHINESE</option>
+                </select>
+            </div>
+            <div class="section">
+                <label class="label">NO. OF EPISODES</label>
+                <input class="input" id="noOfEpisodeTextBox" type="text">
+            </div>
+            <div class="section">
+                <label class="label">YOUR RATING</label>
+                <input class="input" id="yourRatingTextBox" type="text">
+            </div>
+            <div class="section">
+                <label class="label">AWARDS</label>
+                <input class="input" id="awardsTextBox" type="text">
+            </div>
+        </form>
+        <form class="form2">
+            <div class="section">
+            <label class="label">DESCRIPTION ABOUT THE ANIME</label>
+            <textarea rows="10" cols="40" id="descriptionTextBox" class="input2" type="text"></textarea>
+        </div>
+            <button class="submit" id="submitButton" >SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>
+
+css
+
+h3,h1,label,button{
+    font-family: arial;
+}
+
+body{
+    background-color: #1f1c2a;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.heading{
+    background-color: #eb7c68;
+    width: 60%;
+    border-radius: 15px;
+    height: 100px;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-top: 0px;
+    color: white;
+    font-size: 23px;
+    margin-bottom: 0px;
+    display: inline-block;
+
+}
+
+.bat{
+    filter: invert(100%);
+    width: 100px;
+}
+
+.label{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.inputb{
+    display: flex;
+    flex-direction: row;
+    background-color:#1f1c2a ;
+
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    background-color:#1f1c2a ;
+    color:#eb7c68;
+    border-color: #eb7c68;
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.origin{
+    background-color: #1f1c2a;
+    color:#eb7c68;
+    border-color: #eb7c68;
+    height: 55px;
+    width: 405px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.input2{
+    display: flex;
+    flex-direction: row;
+    background-color:#1f1c2a ;
+    color:#eb7c68;
+    border-color: #eb7c68;
+    width: 500px;
+    height: 150px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.submit{
+    background-color: #eb7c68;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 180px;
+    margin-top: 100px;
+    border-radius: 10px;
+    transition: opacity 0.15s;
+}
+.submit:hover{
+    opacity: 0.7;
+}
+.submit:active{
+    opacity: 0.5;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
